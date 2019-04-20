@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 @SpringBootApplication
 //@SpringBootApplication(scanBasePackages = { "com.brushbasics.*" ,"com.brushbasics.evs.test.dao"})
+//test
 public class SpringBootWebApplication extends SpringBootServletInitializer {
 
 	@Override
