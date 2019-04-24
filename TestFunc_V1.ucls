@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.brushbasics.evs.SpringBootWebApplication" project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/SpringBootWebApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="349" x="45" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.brushbasics.evs.test.service.TestModelService" 
+    project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/service/TestModelService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="195" x="918" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.brushbasics.evs.test.model.AuditModel" project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/model/AuditModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="155" width="153" x="434" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.brushbasics.evs.test.controller.TestController" 
+    project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/controller/TestController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="173" width="223" x="890" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.brushbasics.evs.test.controller.WelcomeController" 
+    project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/controller/WelcomeController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="223" x="627" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.brushbasics.evs.test.service.TestModelServiceImpl" 
+    project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/service/TestModelServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="195" x="1153" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.brushbasics.evs.test.model.TestModel" project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/model/TestModel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="263" width="219" x="434" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.brushbasics.evs.test.dao.TestModelJPARepository" 
+    project="EventManagementSystem" 
+    file="/EventManagementSystem/src/main/java/com/brushbasics/evs/test/dao/TestModelJPARepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="65" width="192" x="1153" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="9">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="testModelJPARepository"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="14">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="15" name="testModelService"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
