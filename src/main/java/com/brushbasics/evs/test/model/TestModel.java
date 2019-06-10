@@ -10,8 +10,8 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "test_model")
-public class TestModel extends AuditModel {
+@Table(name = "test_model",schema= "Schema_Mohit")
+public class TestModel extends BaseModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "test_model_gen")

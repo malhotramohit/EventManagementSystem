@@ -16,7 +16,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public class AuditModel {
+public class BaseModel {
 
 	@CreatedDate
 	@Temporal(TemporalType.TIMESTAMP)
@@ -35,5 +35,6 @@ public class AuditModel {
 	@LastModifiedBy
 	@Column(name = "modify_user")
 	private String modifiedBy;
+	
 
 }
